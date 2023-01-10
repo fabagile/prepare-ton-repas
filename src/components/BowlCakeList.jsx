@@ -14,7 +14,7 @@ export const BowlCakeList = () => {
     logique: Si chacun des éléments du plat est compris dans la liste des ingrédients, remplir la condition cook.complete
     */
     const includesIngredients = cook.ingredients.every((ing) =>
-      ingredients.includes(ing)
+      ingredients.includes(ing.name)
     );
 
     if (includesIngredients) {

@@ -4,9 +4,9 @@ export default function Tile({ title, list, recipe, durations, className }) {
       <div className="tile-title ">{title}</div>
       <details open>
         <summary>Ingrédients</summary>
-      {list.map((item, key) => (
+      {list.map(({quantity, name, quality}, key) => (
         <div className="list txt-left " key={key}>
-          {item}
+          {quantity} {name} {quality && `(${quality})`}
         </div>
 
       ))}
