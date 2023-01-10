@@ -1,6 +1,6 @@
 export const cooks = [
   {
-    id: "1",
+    id: "1", page: 6,
     name: "façon pain d'épice",
     ingredients: [
       "son d'avoine",
@@ -13,7 +13,7 @@ export const cooks = [
     ],
   },
   {
-    id: "2",
+    id: "2", page: 8,
     name: "banane-fraise",
     ingredients: [
       "banane",
@@ -25,7 +25,7 @@ export const cooks = [
     ],
   },
   {
-    id: "3",
+    id: "3", page: 10,
     name: "chocolat-coco",
     ingredients: [
       "son d'avoine",
@@ -38,7 +38,7 @@ export const cooks = [
     ],
   },
   {
-    id: "4",
+    id: "4", page: 12,
     name: "nectarine-framboise",
     ingredients: [
       "semoule fine",
@@ -50,7 +50,7 @@ export const cooks = [
     ],
   },
   {
-    id: "5",
+    id: "5", page: 14,
     name: "mirabelles et fève tonka",
     ingredients: [
       "flocons d'avoine",
@@ -63,7 +63,7 @@ export const cooks = [
     ],
   },
   {
-    id: "6",
+    id: "6", page: 16,
     name: "banane, cœur coulant au chocolat",
     ingredients: [
       "banane",
@@ -76,7 +76,7 @@ export const cooks = [
     ],
   },
   {
-    id: "7",
+    id: "7", page: 18,
     name: "myrtille-groseille",
     ingredients: [
       "semoule fine",
@@ -88,7 +88,7 @@ export const cooks = [
     ],
   },
   {
-    id: "8",
+    id: "8", page: 20,
     name: "abricot, miel et amandes",
     ingredients: [
       "abricot",
@@ -102,7 +102,7 @@ export const cooks = [
     ],
   },
   {
-    id: "9",
+    id: "9", page: 22,
     name: "compote de pommes et kiwi",
     ingredients: [
       "levure chimique",
@@ -112,7 +112,7 @@ export const cooks = [
     ],
   },
   {
-    id: "10",
+    id: "10", page: 24,
     name: "cerise-amande",
     ingredients: [
       "levure chimique",
@@ -124,7 +124,7 @@ export const cooks = [
     ],
   },
   {
-    id: "11",
+    id: "11", page: 26,
     name: "brocoli et saumon fumé",
     ingredients: [
       "brocoli",
@@ -133,9 +133,10 @@ export const cooks = [
       "fromage blanc",
       "œuf",
     ],
+
   },
   {
-    id: "12",
+    id: "12", page: 28,
     name: "courgette, jambon et parmesan",
     ingredients: [
       "courgette",
@@ -147,12 +148,12 @@ export const cooks = [
     ],
   },
   {
-    id: "13",
+    id: "13", page: 30,
     name: "potimarron, roquefort et noix",
     ingredients: ["polenta", "purée de potimarron", "roquefort", "œuf", "noix"],
   },
   {
-    id: "14",
+    id: "14", page: 32,
     name: "thon-tomate",
     ingredients: [
       "riz",
@@ -165,7 +166,7 @@ export const cooks = [
     ],
   },
   {
-    id: "15",
+    id: "15", page: 34,
     name: "chou-fleur, curry et coco",
     ingredients: [
       "chou-fleur",
@@ -177,7 +178,7 @@ export const cooks = [
     ],
   },
   {
-    id: "16",
+    id: "16", page: 36,
     name: "courgette, tomate et chorizo",
     ingredients: [
       "courgette",
@@ -192,7 +193,7 @@ export const cooks = [
     ],
   },
   {
-    id: "17",
+    id: "17", page: 38,
     name: "poireau-moutarde",
     ingredients: [
       "œuf",
@@ -205,7 +206,7 @@ export const cooks = [
     ],
   },
   {
-    id: "18",
+    id: "18", page: 40,
     name: "chèvre, épinards et bacon",
     ingredients: [
       "pousses d'épinards",
@@ -218,7 +219,7 @@ export const cooks = [
     ],
   },
   {
-    id: "19",
+    id: "19", page: 42,
     name: "façon riz cantonais",
     ingredients: [
       "petite carotte",
@@ -230,7 +231,7 @@ export const cooks = [
     ],
   },
   {
-    id: "20",
+    id: "20", page: 44,
     name: "façon brunch",
     ingredients: [
       "flocons de céréales",

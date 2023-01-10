@@ -2,7 +2,7 @@ import Detail from "./UI/Detail";
 
 export default function Missing({ bowlCakes, missingArray, toggle }) {
   if (missingArray.length && bowlCakes.length && !toggle ) return <>
-    <div>incomplets</div>
+    <div>Incomplets</div>
     {missingArray.map((miss) => (
       <details key={miss} >
         <summary >{miss}</summary>
