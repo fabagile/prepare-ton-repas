@@ -13,6 +13,8 @@ export default function Needed() {
         <Tile title="condiments" list={ingredients.condiments} />
         <Tile title="laitiers" list={ingredients.laitiers} />
         <Tile title="légumes" list={ingredients.légumes} />
+        <Tile title="protéines" list={ingredients.protéines} />
+        <Tile title="desserts" list={ingredients.desserts} />
        
       </div>
     </>

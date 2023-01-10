@@ -1,5 +1,6 @@
 export const cooks = [
   {
+    id: "1",
     name: "façon pain d'épice",
     ingredients: [
       "son d'avoine",
@@ -12,6 +13,7 @@ export const cooks = [
     ],
   },
   {
+    id: "2",
     name: "banane-fraise",
     ingredients: [
       "banane",
@@ -23,6 +25,7 @@ export const cooks = [
     ],
   },
   {
+    id: "3",
     name: "chocolat-coco",
     ingredients: [
       "son d'avoine",
@@ -35,6 +38,7 @@ export const cooks = [
     ],
   },
   {
+    id: "4",
     name: "nectarine-framboise",
     ingredients: [
       "semoule fine",
@@ -46,6 +50,7 @@ export const cooks = [
     ],
   },
   {
+    id: "5",
     name: "mirabelles et fève tonka",
     ingredients: [
       "flocons d'avoine",
@@ -58,6 +63,7 @@ export const cooks = [
     ],
   },
   {
+    id: "6",
     name: "banane, cœur coulant au chocolat",
     ingredients: [
       "banane",
@@ -70,6 +76,7 @@ export const cooks = [
     ],
   },
   {
+    id: "7",
     name: "myrtille-groseille",
     ingredients: [
       "semoule fine",
@@ -80,17 +87,159 @@ export const cooks = [
       "groseille",
     ],
   },
-  { name: "abricot, miel et amandes", ingredients: [""] },
-  { name: "compote de pommes et kiwi", ingredients: [] },
-  { name: "cerise-amande", ingredients: [] },
-  { name: "brocoli et saumon fumé", ingredients: [] },
-  { name: "courgette, jambon et parmesan", ingredients: [] },
-  { name: "potimarron, roquefort et noix", ingredients: [] },
-  { name: "thon-tomate", ingredients: [] },
-  { name: "chou-fleur, curry et coco", ingredients: [] },
-  { name: "courgette, tomate et chorizo", ingredients: [] },
-  { name: "poireau-moutarde", ingredients: [] },
-  { name: "chèvre, épinards et bacon", ingredients: [] },
-  { name: "façon riz cantonais", ingredients: [] },
-  { name: "façon brunch", ingredients: [] },
+  {
+    id: "8",
+    name: "abricot, miel et amandes",
+    ingredients: [
+      "abricot",
+      "semoule fine",
+      "amande en poudre",
+      "levure chimique",
+      "boisson végétale à l'amande",
+      "œuf",
+      "miel",
+      "extrait d'amande amère",
+    ],
+  },
+  {
+    id: "9",
+    name: "compote de pommes et kiwi",
+    ingredients: [
+      "levure chimique",
+      "flocons d'avoine",
+      "compote de pommes",
+      "kiwi",
+    ],
+  },
+  {
+    id: "10",
+    name: "cerise-amande",
+    ingredients: [
+      "levure chimique",
+      "flocons d'avoine",
+      "poudre d'amande",
+      "œuf",
+      "boisson végétale à l'amande",
+      "cerise",
+    ],
+  },
+  {
+    id: "11",
+    name: "brocoli et saumon fumé",
+    ingredients: [
+      "brocoli",
+      "saumon fumé",
+      "flocons de sarrasin",
+      "fromage blanc",
+      "œuf",
+    ],
+  },
+  {
+    id: "12",
+    name: "courgette, jambon et parmesan",
+    ingredients: [
+      "courgette",
+      "jambon blanc",
+      "semoule fine",
+      "parmesan râpé",
+      "œuf",
+      "lait",
+    ],
+  },
+  {
+    id: "13",
+    name: "potimarron, roquefort et noix",
+    ingredients: ["polenta", "purée de potimarron", "roquefort", "œuf", "noix"],
+  },
+  {
+    id: "14",
+    name: "thon-tomate",
+    ingredients: [
+      "riz",
+      "coulis de tomate",
+      "thon en boîte",
+      "basilic",
+      "œuf",
+      "sel",
+      "poivre",
+    ],
+  },
+  {
+    id: "15",
+    name: "chou-fleur, curry et coco",
+    ingredients: [
+      "chou-fleur",
+      "semoule fine",
+      "curry en poudre",
+      "œuf",
+      "lait de coco",
+      "sel",
+    ],
+  },
+  {
+    id: "16",
+    name: "courgette, tomate et chorizo",
+    ingredients: [
+      "courgette",
+      "tomate",
+      "chorizo",
+      "polenta",
+      "paprika",
+      "œuf",
+      "lait",
+      "sel",
+      "poivre",
+    ],
+  },
+  {
+    id: "17",
+    name: "poireau-moutarde",
+    ingredients: [
+      "œuf",
+      "fromage blanc",
+      "moutarde fine",
+      "riz",
+      "fondue de poireaux",
+      "sel",
+      "poivre",
+    ],
+  },
+  {
+    id: "18",
+    name: "chèvre, épinards et bacon",
+    ingredients: [
+      "pousses d'épinards",
+      "bacon",
+      "son d'avoine",
+      "lait de chèvre",
+      "œuf",
+      "sel",
+      "poivre",
+    ],
+  },
+  {
+    id: "19",
+    name: "façon riz cantonais",
+    ingredients: [
+      "petite carotte",
+      "riz",
+      "petits pois",
+      "dés de jambon",
+      "sauce soja",
+      "œuf",
+    ],
+  },
+  {
+    id: "20",
+    name: "façon brunch",
+    ingredients: [
+      "flocons de céréales",
+      "gruyère râpé",
+      "bacon",
+      "fromage blanc",
+      "œuf",
+      "sel",
+      "poivre",
+    ],
+  },
 ];

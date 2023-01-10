@@ -1,6 +1,6 @@
 {
   "fruits": ["banane", "clémentine", "pomme", "kiwi"],
-  "légumes": ["courgette", "carotte", "avocat", "oignon", "ail"],
+  "légumes": ["courgette", "carotte", "avocat", "oignon", "ail", "pousses d'épinard"],
   "féculents": ["pâtes", "riz", "riz pour sushis", "semoule fine", "couscous"],
   "sauces": [
     "mayonnaise",
@@ -10,16 +10,18 @@
     "cèpes et porto",
     "aioli"
   ],
-  "laitiers": ["beurre doux", "beurre demi-sel", "yaourts nature", "camembert"],
+  "laitiers": ["beurre doux", "beurre demi-sel", "yaourts nature", "camembert", "lait"],
   "desserts" : [
-    "compote"
+    "compote de pommes", "chocolat noir"
   ],
   "condiments": [
     "farine",
     "farine de blé noir",
+    "flocons d'avoine",
     "levure chimique",
     "sel",
     "sucre en poudre"
   ],
+  "protéines":["œuf", "saumon fumé"],
   "biscuits": ["speculoos", "oréos", "palets bretons"]
 }

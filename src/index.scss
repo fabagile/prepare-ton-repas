@@ -51,8 +51,16 @@ code {
     width: 1024px;
   }
   .tiles {
-    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
   }
+}
+@media (min-width: 1200px) {
+  body {
+    width: 1200px;
+  }
+  // .tiles {
+  //   grid-template-columns: repeat(4, minmax(200px, 1fr));
+  // }
 }
 .tile {
   // flex-direction: column;
