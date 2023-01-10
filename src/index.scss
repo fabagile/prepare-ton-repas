@@ -23,7 +23,9 @@ code {
   text-align: left;
 }
 .list {
-  padding-left: 16px;
+  padding: 2px 16px;
+  // padding-bottom: 2px;
+  word-wrap: break-word;
 }
 .tiles {
   margin: 0 1em;
@@ -37,6 +39,27 @@ h1, h2, h3 {
 }
 h1, h2, h3, .tile-title {
   text-align: center;
+}
+ul {
+  list-style: none;
+  margin-left: -1em;
+  margin-top: -2px;
+
+}
+.indent {
+  text-indent: -1em;
+}
+ul li {
+}
+
+ol li {
+  // text-align: justify;
+  padding-right: 24px;
+  margin-bottom: 3pt;
+  word-wrap:normal;
+}
+ summary {
+  text-shadow: 1px 1px 0 hsla(0, 0%, 50%, 0.3);
 }
 @media (min-width: 500px) {
   body {

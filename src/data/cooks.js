@@ -116,7 +116,7 @@ export const cooks = [
     },
     recipe: [
       "Dans un bol, mélangez les flocons d'avoine, la levure et la compote.",
-      "Pelez et coupez le kiwi en petits dés et incorporez-les au contenu du .bol",
+      "Pelez et coupez le kiwi en petits dés et incorporez-les au contenu du bol.",
       "Faites cuire 3 à 4 min au micro-ondes à puissance maximale. Laissez refroidir 5 min, puis démoulez délicatement sur une assiette ou dégustez directement dans le bol.",
     ]
   },
