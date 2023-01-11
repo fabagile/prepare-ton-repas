@@ -56,13 +56,16 @@ export const BowlCakeList = () => {
   // }
 
   return (
-    <div>
+    <section id="bowlcake-list">
       <h2>Bowl Cakes</h2>
+      <div className="flex-stretch">
       <Complete toggle={toggle} bowlCakes={completeBowlCakes} />
       <Missing toggle={toggle}
         bowlCakes={missingIngredientsBowlCakes}
         missingArray={missingArray}
         />
+        </div>
+        
         {completeBowlCakes.length && missingIngredientsBowlCakes.length ? (
           <button
             onClick={triggerToggle}
@@ -71,6 +74,6 @@ export const BowlCakeList = () => {
             Voir les {!toggle ? "complets" : "manquants"}
           </button>
         ) : null}
-    </div>
+    </section>
   );
 };

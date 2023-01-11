@@ -8,7 +8,11 @@ body {
   // background-color: #282c34;
   // color: white;
 }
-
+#bowlcake-list {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 81px);
+}
 h1,
 h2 {
   // text-transform: uppercase;
@@ -45,6 +49,9 @@ ul {
   margin-left: -1em;
   margin-top: -2px;
 
+}
+.flex-stretch {
+  flex:1;
 }
 .indent {
   text-indent: -1em;
