@@ -21,7 +21,7 @@ export const BowlCakeList = () => {
       cook.complete = true;
     } else {
       const missingIngredients = cook.ingredients.filter(
-        (ing) => !ingredients.includes(ing)
+        (ing) => !ingredients.includes(ing.name)
       );
       console.log(`manquants: ${missingIngredients.join(", ")}`);
       cook.missing = missingIngredients;
