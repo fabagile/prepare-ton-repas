@@ -1,5 +1,5 @@
 {
-  "fruits": ["banane", "clémentine", "pomme", "kiwi"],
+  "fruits": [ "clémentine", "pomme", "kiwi"],
   "légumes": ["courgette", "carotte", "avocat", "oignon", "ail", "pousses d'épinard", "gingembre frais"],
   "féculents": ["pâtes", "riz", "riz pour sushis", "semoule fine", "couscous"],
   "sauces": [
@@ -13,7 +13,7 @@
   "laitiers": ["beurre doux", "beurre demi-sel", "yaourts nature", "camembert", "lait"],
 
   "desserts" : [
-    "compote de pommes", "chocolat noir"
+    "compote de pommes / fruits rouges", "chocolat noir"
   ],
   "condiments": [
     "farine",

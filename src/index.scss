@@ -19,6 +19,11 @@ h2 {
   text-align: center;
 }
 
+.disabled {
+  background-color: darkgray;
+  color: gray;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
