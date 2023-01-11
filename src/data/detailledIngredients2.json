@@ -1,61 +1,57 @@
-{
-  "fruits": [
-    {"available": false, "name": "banane" }, 
-    {"available": true, "name": "clémentine" }, 
-    {"available": true, "name": "pomme" }, 
-    {"available": true, "name": "kiwi" }
-],
-  "légumes": [
-    {"available": true, "name": "courgette" },
-    {"available": true, "name": "carotte" },
-    {"available": true, "name": "avocat" },
-    {"available": true, "name": "oignon" },
-    {"available": true, "name": "ail" },
-    {"available": true, "name": "pousses d'épinard" },
-    {"available": true, "name": "gingembre frais" }
-  ],
-  "féculents": [
-    {"available": true, "name": "pâtes" }, 
-    {"available": true, "name": "riz" }, 
-    {"available": true, "name": "riz pour sushis" }, 
-    {"available": true, "name": "semoule fine" }, 
-    {"available": true, "name": "couscous" }],
-  "sauces": [
-    {"available": true, "name": "mayonnaise" },
-    {"available": true, "name": "tabasco" },
-    {"available": true, "name": "soja" },
-    {"available": true, "name": "arôme vanille" },
-    {"available": true, "name": "cèpes et porto" },
-    {"available": true, "name": "aioli" }
-  ],
-  "laitiers": [
-    {"available": true, "name": "beurre doux" },
-    {"available": true, "name": "beurre demi-sel" },
-    {"available": true, "name": "yaourts nature" },
-    {"available": true, "name": "camembert" },
-    {"available": true, "name": "lait" }
-  ],
+[
+  { "available": false, "category": "fruits", "name": "banane" },
+  { "available": true, "category": "fruits", "name": "clémentine" },
+  { "available": true, "category": "fruits", "name": "pomme" },
+  { "available": true, "category": "fruits", "name": "kiwi" },
 
-  "desserts": [
-    {"available": false, "name": "compote de pommes" }, 
-    {"available": true, "name": "compote de pommes / fruits rouges" }, 
-    {"available": true, "name": "chocolat noir" }],
-  "condiments": [
-    {"available": true, "name": "farine" },
-    {"available": true, "name": "farine de blé noir" },
-    {"available": true, "name": "flocons d'avoine" },
-    {"available": true, "name": "levure chimique" },
-    {"available": true, "name": "sel" },
-    {"available": true, "name": "sucre en poudre" },
-    {"available": true, "name": "graines de sésame" }
-  ],
-  "protéines": [
-    {"available": true, "name": "œuf" }, 
-    {"available": true, "name": "saumon fumé" }
-  ],   
-  "biscuits": [
-    {"available": true, "name": "speculoos" }, 
-    {"available": true, "name": "oréos" }, 
-    {"available": true, "name": "palets bretons" }
-  ]   
-    }
+  { "available": true, "category": "légumes", "name": "courgette" },
+  { "available": true, "category": "légumes", "name": "carotte" },
+  { "available": true, "category": "légumes", "name": "avocat" },
+  { "available": true, "category": "légumes", "name": "oignon" },
+  { "available": true, "category": "légumes", "name": "ail" },
+  { "available": true, "category": "légumes", "name": "pousses d'épinard" },
+  { "available": true, "category": "légumes", "name": "gingembre frais" },
+
+  { "available": true, "category": "féculents", "name": "pâtes" },
+  { "available": true, "category": "féculents", "name": "riz" },
+  { "available": true, "category": "féculents", "name": "riz pour sushis" },
+  { "available": true, "category": "féculents", "name": "semoule fine" },
+  { "available": true, "category": "féculents", "name": "couscous" },
+
+  { "available": true, "category": "sauces", "name": "mayonnaise" },
+  { "available": true, "category": "sauces", "name": "tabasco" },
+  { "available": true, "category": "sauces", "name": "soja" },
+  { "available": true, "category": "sauces", "name": "arôme vanille" },
+  { "available": true, "category": "sauces", "name": "cèpes et porto" },
+  { "available": true, "category": "sauces", "name": "aioli" },
+
+  { "available": true, "category": "laitiers", "name": "beurre doux" },
+  { "available": true, "category": "laitiers", "name": "beurre demi-sel" },
+  { "available": true, "category": "laitiers", "name": "yaourts nature" },
+  { "available": true, "category": "laitiers", "name": "camembert" },
+  { "available": true, "category": "laitiers", "name": "parmesan râpé" },
+  { "available": true, "category": "laitiers", "name": "lait" },
+
+  { "available": false, "category": "desserts", "name": "compote de pommes" },
+  {
+    "available": true,
+    "category": "desserts",
+    "name": "compote de pommes / fruits rouges"
+  },
+  { "available": true, "category": "desserts", "name": "chocolat noir" },
+
+  { "available": true, "category": "condiments", "name": "farine" },
+  { "available": true, "category": "condiments", "name": "farine de blé noir" },
+  { "available": true, "category": "condiments", "name": "flocons d'avoine" },
+  { "available": true, "category": "condiments", "name": "levure chimique" },
+  { "available": true, "category": "condiments", "name": "sel" },
+  { "available": true, "category": "condiments", "name": "graines de sésame" },
+  { "available": true, "category": "condiments", "name": "sucre en poudre" },
+
+  { "available": true, "category": "protéines", "name": "œuf" },
+  { "available": true, "category": "protéines", "name": "saumon fumé" },
+
+  { "available": true, "category": "biscuits", "name": "speculoos" },
+  { "available": true, "category": "biscuits", "name": "oréos" },
+  { "available": true, "category": "biscuits", "name": "palets bretons" }
+]

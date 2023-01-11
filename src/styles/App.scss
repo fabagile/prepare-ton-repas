@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   // background-color: #282c34;
-  // display: flex;
-  // flex-direction: column;
-  // min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -16,40 +16,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-.red {
-  color: red;
-}
-.bg-warning {
-  background: orangered;
-}
-.border-warning {
-  border-color: orangered;
-}
-.bg-green {
-  background: green;
-}
-.border-green {
-  border-color: green;
-}
-.warning {
-  color: orangered;
-}
-.green {
-  color: green;
-}
-button {
-  border-width: 0;
-  border-color: inherit;
-  padding: 8px 1em;
-  margin: 8px;
-  font-size: 1em;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  color: white;
 }
 
 .App-header {

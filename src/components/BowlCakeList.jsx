@@ -1,19 +1,13 @@
-import { useState } from "react";
-
-import {
-  missingIngredientsBowlCakes,
-  missingArray,
-  completeBowlCakes,
-} from "../utils/dispatchIngredients";
 import Complete from "./Complete";
 import Missing from "./Missing";
+// import { connectDB } from "../utils/connectDB";
 
-export const BowlCakeList = () => {
-  const [toggle, setComplete] = useState(completeBowlCakes.length);
-  function toggleComplete() {
-    setComplete(!toggle);
-    console.log(toggle);
-  }
+
+export const BowlCakeList = ({missingIngredientsBowlCakes,
+  missingArray,
+  completeBowlCakes,toggle, setComplete}) => {
+
+
   // const disabled =
 
   // choix du bowl cake
@@ -38,20 +32,7 @@ export const BowlCakeList = () => {
         />
       </div>
 
-      {completeBowlCakes.length ? (
-        <button
-          onClick={toggleComplete}
-          className={
-            !toggle && completeBowlCakes.length ? "bg-green" : "bg-warning"
-          }
-        >
-          Voir les {!toggle ? "complets" : "manquants"}
-        </button>
-      ) : (
-        <button disabled className="disabled">
-          Voir les complets
-        </button>
-      )}
+
     </section>
   );
 };
