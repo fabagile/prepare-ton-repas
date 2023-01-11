@@ -1,4 +1,6 @@
-export default function Tile({ title, list, recipe, durations, className }) {
+export default function Tile({ title, list, rest, className }) {
+  const {recipe, durations}= rest 
+  console.table(durations)
   return (
     <div className={`border-${className} ${className} tile`}>
       <div className="tile-title ">{title}</div>

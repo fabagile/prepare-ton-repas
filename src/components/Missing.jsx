@@ -7,12 +7,12 @@ export default function Missing({ bowlCakes, missingArray, toggle }) {
       <details key={miss} >
         <summary >{miss}</summary>
         <div className="tiles">
-          {/* c'est pas mieux... */}
+
           {bowlCakes.map(
             ({ id, name, missingNumber, missing }) =>
               miss === missingNumber && (
                 <details key={id} className="">
-                  <Detail className="warning" title={name} list={missing} />
+                  <Detail className="warning" title={name} list={missing}  />
                 </details>
               )
           )}
