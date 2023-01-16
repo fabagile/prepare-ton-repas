@@ -1,11 +1,11 @@
-import { capitalizeFirstLetter } from "../../utils/capitalizeFirstLetter";
+import { capitalizeFirstLetter } from '../../utils/capitalizeFirstLetter';
 
 export default function Detail({ title, list, className }) {
   // console.table(bowlCake)
   return (
     <>
       <summary className={`${className} txt-left`}>
-        {capitalizeFirstLetter(title)}
+        {typeof title === 'string' ? capitalizeFirstLetter(title) : title}
       </summary>
 
       {list.map((item, key) => (

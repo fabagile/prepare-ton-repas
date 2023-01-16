@@ -1,6 +1,14 @@
 {
-  "fruits": [ "clémentine", "pomme", "kiwi"],
-  "légumes": ["courgette", "carotte", "avocat", "oignon", "ail", "pousses d'épinard", "gingembre frais"],
+  "fruits": ["clémentine", "pomme", "kiwi", "banane"],
+  "légumes": [
+    "courgette",
+    "carotte",
+    "avocat",
+    "oignon",
+    "ail",
+    "pousses d'épinard",
+    "gingembre frais"
+  ],
   "féculents": ["pâtes", "riz", "riz pour sushis", "semoule fine", "couscous"],
   "sauces": [
     "mayonnaise",
@@ -10,11 +18,17 @@
     "cèpes et porto",
     "aioli"
   ],
-  "laitiers": ["beurre doux", "beurre demi-sel", "yaourts nature", "camembert", "lait", "parmesan râpé"],
-
-  "desserts" : [
-    "compote de pommes / fruits rouges", "chocolat noir"
+  "laitiers": [
+    "beurre doux",
+    "beurre demi-sel",
+    "yaourts nature",
+    "camembert",
+    "lait",
+    "parmesan râpé",
+    "skyr"
   ],
+
+  "desserts": ["compote de pommes / fruits rouges", "chocolat noir"],
   "condiments": [
     "farine",
     "farine de blé noir",
@@ -24,6 +38,6 @@
     "sucre en poudre",
     "graines de sésame"
   ],
-  "protéines":["œuf", "saumon fumé"],
+  "protéines": ["œuf", "saumon fumé", "saumon"],
   "biscuits": ["speculoos", "oréos", "palets bretons"]
 }

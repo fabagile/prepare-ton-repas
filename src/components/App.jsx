@@ -1,17 +1,18 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 import {
   missingIngredientsBowlCakes,
+  missingIngredientsArray,
   missingArray,
   completeBowlCakes,
-} from "../utils/dispatchIngredients";
+} from '../utils/dispatchIngredients';
 
-import "../styles/App.scss";
+import '../styles/App.scss';
 // import Available from "./Available";
-import { BowlCakeList } from "./BowlCakeList";
+import { BowlCakeList } from './BowlCakeList';
 
 function App() {
-  const title = "Prépare ton repas";
+  const title = 'Prépare ton repas';
   document.title = title;
   // cooks.map((cook) => console.table(cook.ingredients));
   const [toggle, setComplete] = useState(completeBowlCakes.length);
@@ -31,6 +32,7 @@ function App() {
           toggle={toggle}
           setComplete={setComplete}
           completeBowlCakes={completeBowlCakes}
+          missingIngredientsArray={missingIngredientsArray}
           missingIngredientsBowlCakes={missingIngredientsBowlCakes}
           missingArray={missingArray}
         />
@@ -40,10 +42,10 @@ function App() {
           <button
             onClick={toggleComplete}
             className={
-              !toggle && completeBowlCakes.length ? "bg-green" : "bg-warning"
+              !toggle && completeBowlCakes.length ? 'bg-green' : 'bg-warning'
             }
           >
-            Voir les {!toggle ? "complets" : "manquants"}
+            Voir les {!toggle ? 'complets' : 'manquants'}
           </button>
         ) : (
           <button disabled className="disabled">
