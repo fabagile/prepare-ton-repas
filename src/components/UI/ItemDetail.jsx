@@ -3,7 +3,8 @@ export default function ItemDetail({ title, list, className }) {
   return (
     <>
       <summary className={`${className} txt-left`}>{title}</summary>
-      <div className="txt-left">{list.join(', ')}</div>
+      
+      <div className="tiles txt-left">{list.map((item, key)=> <div key={key} className="unbordered-tile" >{item}</div> )}</div>
     </>
   );
 }

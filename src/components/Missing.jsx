@@ -6,13 +6,13 @@ export default function Missing({ bowlCakes, missingArray, toggle }) {
       <>
         <div>Incomplets</div>
         {missingArray.map((miss) => (
-          <details key={miss}>
-            <summary>{miss}</summary>
+          <details open={miss === missingArray[0]} key={miss}>
+            <summary  className="tile">{miss}</summary>
             <div className="tiles">
               {bowlCakes.map(
                 ({ id, name, missingNumber, missing }) =>
                   miss === missingNumber && (
-                    <details key={id} className="">
+                    <details  key={id} className="">
                       <Detail className="warning" title={name} list={missing} />
                     </details>
                   )

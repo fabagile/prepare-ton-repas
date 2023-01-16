@@ -56,6 +56,7 @@ if (missingCounterStop) {
     missingObject.ingredients = bowlsArray;
     console.log(missingObject);
     missingIngredientsArray.push(missingObject);
+    return missingIngredientsArray
   });
 }
 

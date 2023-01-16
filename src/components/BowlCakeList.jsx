@@ -1,5 +1,5 @@
 import Complete from './Complete';
-// import Missing from "./Missing";
+import Missing from "./Missing";
 import MissingIngredients from './MissingIngredients';
 // import { connectDB } from "../utils/connectDB";
 
@@ -8,8 +8,9 @@ export const BowlCakeList = ({
   missingIngredientsArray,
   missingArray,
   completeBowlCakes,
-  toggle,
-  setComplete,
+  listByBowlCake, 
+  setListByBowlCake
+
 }) => {
   // const disabled =
 
@@ -28,16 +29,21 @@ export const BowlCakeList = ({
           toggle={completeBowlCakes.length}
           bowlCakes={completeBowlCakes}
         />
-        <MissingIngredients
-          toggle={missingIngredientsArray.length}
-          list={missingIngredientsArray}
-          missingArray={missingArray}
-        />
-        {/* <Missing
-          toggle={missingIngredientsBowlCakes.length}
-          bowlCakes={missingIngredientsBowlCakes}
-          missingArray={missingArray}
-        /> */}
+        {listByBowlCake ? (
+          <Missing
+            toggle={missingIngredientsBowlCakes.length}
+            bowlCakes={missingIngredientsBowlCakes}
+            missingArray={missingArray}
+          />
+
+        ): (
+ <MissingIngredients
+            toggle={missingIngredientsArray.length}
+            list={missingIngredientsArray}
+            missingArray={missingArray}
+          /> 
+
+        )}
       </div>
     </section>
   );

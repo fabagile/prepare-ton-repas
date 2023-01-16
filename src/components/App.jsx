@@ -16,6 +16,7 @@ function App() {
   document.title = title;
   // cooks.map((cook) => console.table(cook.ingredients));
   const [toggle, setComplete] = useState(completeBowlCakes.length);
+  const [listByBowlCake, setListByBowlCake] = useState(false)
   function toggleComplete() {
     setComplete(!toggle);
     console.log(toggle);
@@ -29,11 +30,11 @@ function App() {
       <main className="flex-stretch">
         {/* <Available /> */}
         <BowlCakeList
-          toggle={toggle}
-          setComplete={setComplete}
           completeBowlCakes={completeBowlCakes}
           missingIngredientsArray={missingIngredientsArray}
           missingIngredientsBowlCakes={missingIngredientsBowlCakes}
+          listByBowlCake={listByBowlCake}
+          setListByBowlCake={setListByBowlCake}
           missingArray={missingArray}
         />
       </main>
@@ -52,6 +53,7 @@ function App() {
             Voir les complets
           </button>
         )}
+        <button onClick={()=> setListByBowlCake(!listByBowlCake)} className='bg-green' >Manquants par {!listByBowlCake ? "bowl cake" : "ingrédient"}</button>
       </footer>
     </div>
   );
