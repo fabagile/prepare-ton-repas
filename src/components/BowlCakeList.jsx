@@ -1,17 +1,16 @@
 import Complete from './Complete';
-import Missing from "./Missing";
+import Missing from './Missing';
 import MissingIngredients from './MissingIngredients';
 // import { connectDB } from "../utils/connectDB";
 
-export const BowlCakeList = ({
+export default function BowlCakeList({
   missingIngredientsBowlCakes,
   missingIngredientsArray,
   missingArray,
   completeBowlCakes,
-  listByBowlCake, 
-  setListByBowlCake
-
-}) => {
+  listByBowlCake,
+  setListByBowlCake,
+}) {
   // const disabled =
 
   // choix du bowl cake
@@ -35,16 +34,14 @@ export const BowlCakeList = ({
             bowlCakes={missingIngredientsBowlCakes}
             missingArray={missingArray}
           />
-
-        ): (
- <MissingIngredients
+        ) : (
+          <MissingIngredients
             toggle={missingIngredientsArray.length}
             list={missingIngredientsArray}
             missingArray={missingArray}
-          /> 
-
+          />
         )}
       </div>
     </section>
   );
-};
+}
